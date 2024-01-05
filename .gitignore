@@ -16,3 +16,6 @@
 
 # Don't commit templates
 *template.md
+
+# NPM related
+node_modules/

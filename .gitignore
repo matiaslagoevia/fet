@@ -19,3 +19,7 @@
 
 # NPM related
 node_modules/
+
+# Built files
+public/index.html
+public/styles/*.css*

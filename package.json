@@ -3,7 +3,8 @@
     "compile-css": "sass src/styles/style.scss:src/styles/style.css src/styles/reset.scss:src/styles/reset.css",
     "move-css": "mv src/styles/*.css* public/styles/",
     "css": "npm run compile-css && npm run move-css",
-    "build": "npm run css"
+    "html": "cp src/index.html public/",
+    "build": "npm run css && npm run html"
   },
   "devDependencies": {
     "sass": "^1.69.7"

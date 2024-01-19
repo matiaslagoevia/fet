@@ -16,10 +16,3 @@
 
 # Don't commit templates
 *template.md
-
-# NPM related
-node_modules/
-
-# Built files
-public/index.html
-public/styles/*.css*
